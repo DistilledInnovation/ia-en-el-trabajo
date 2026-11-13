@@ -8,6 +8,12 @@ Guía práctica de **Distilled Innovation** para entender y usar la inteligencia
 
 - **Punto de partida:** reconocimiento del nivel inicial, elección de una tarea pequeña y ficha de inicio.
 - **Módulo 1 · Entender la IA sin enredarnos:** qué es un LLM, cinco ideas clave para trabajar con IA y un glosario en lenguaje cotidiano (prompt, contexto, alucinación, memoria, multimodal, metaprompting, sandbox).
+- **Módulo 2 · Dejar lista la herramienta:** acceso, privacidad, contexto seguro y práctica inicial.
+- **Módulo 3 · Elegir cuándo usar IA:** cómo clasificar tareas según cuánto delegamos a la IA, matriz de escenarios, tarjetas para discutir, ejercicio práctico y plantillas (lienzo y checklist de automatización).
+
+- **Módulo 4 · Pedir mejor:** instrucciones claras, metaprompting y revisión humana.
+- **Módulo 5 · Laboratorio acompañado:** retos prácticos, verificación y una oportunidad segura.
+- **Cierre:** reflexión y siguiente práctica.
 
 ## Uso
 
