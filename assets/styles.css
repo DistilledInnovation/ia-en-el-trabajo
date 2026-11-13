@@ -466,4 +466,4 @@ section.mod.dark a.proof-card{color:#fff}
 .proof-card small{font-size:12px;color:#cfe7ec}
 .proof-card:hover{border-color:var(--yellow)}
 
-.course-figure{margin:28px 0}.course-figure img{display:block;width:100%;height:auto;border-radius:14px}.course-figure figcaption{font-size:.9rem;margin-top:8px;opacity:.8}
+.course-figure{max-width:640px;margin:28px auto}.course-figure img{display:block;width:100%;height:auto;border-radius:14px}.course-figure figcaption{font-size:.9rem;margin-top:8px;opacity:.8}
