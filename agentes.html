@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Agentes de IA en el trabajo · Distilled Innovation</title>
 <meta name="description" content="Segunda parte de IA en el trabajo: agentes, conexiones y automatizaciones con supervisión humana.">
-<link rel="icon" type="image/png" href="assets/brand/favicon.png"><link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" type="image/png" href="assets/brand/favicon.png"><link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/agentes-visuales.css">
 </head>
 <body>
 <header class="topbar"><button class="menu-btn" aria-label="Abrir menú" aria-expanded="false" id="menu-btn">☰</button><span class="tb-title">Agentes de IA en el trabajo</span></header><div class="scrim" id="scrim"></div>
@@ -14,7 +14,17 @@
 <main>
 <header class="hero" id="inicio"><div class="logo"><img src="assets/brand/logo-white.png" alt="Distilled Innovation"></div><div class="content"><span class="eyebrow">IA en el trabajo · Segunda parte</span><h1><span class="underline">Trabajar con agentes de IA</span></h1><p>Aprende a encargar tareas de varios pasos, conectar herramientas y revisar resultados con un agente de IA, usando el producto que tengas disponible.</p><div class="cta"><a class="btn yellow" href="#teoria-1">Comenzar →</a><a class="btn ghost" href="index.html">Volver a la primera parte</a></div></div><svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" height="90" width="100%"><path d="M0 80 C400 30 900 120 1440 70 V120 H0Z" fill="#fff"/></svg></header>
 <section class="mod" id="teoria-1"><div class="wrap"><span class="eyebrow">Módulo 1 · Teoría</span><h2>¿Qué hace diferente a un agente de IA?</h2><p class="lead">Un agente recibe un objetivo y, según sus capacidades y permisos, puede elegir pasos, usar herramientas, observar resultados y continuar o pedir ayuda.</p>
-<div class="callout"><b>Objetivo → plan → herramienta → resultado → revisión → siguiente paso.</b> La persona define el alcance, conserva el control y valida lo que importa.</div>
+<div class="agent-journey" aria-labelledby="journey-title">
+  <div class="journey-head"><div><span class="visual-kicker">El recorrido de una tarea</span><h3 id="journey-title">Del objetivo al siguiente paso</h3></div><span class="journey-tag">Puede repetirse</span></div>
+  <ol class="journey-steps">
+    <li><span class="journey-number">01</span><b>Objetivo</b><small>Definimos qué queremos lograr.</small></li>
+    <li><span class="journey-number">02</span><b>Plan</b><small>El agente organiza los pasos.</small></li>
+    <li><span class="journey-number">03</span><b>Herramienta</b><small>Usa una función autorizada.</small></li>
+    <li><span class="journey-number">04</span><b>Resultado</b><small>Observa lo que encontró o produjo.</small></li>
+    <li><span class="journey-number">05</span><b>Revisión</b><small>Comprueba o pide ayuda.</small></li>
+    <li><span class="journey-number">06</span><b>Siguiente paso</b><small>Continúa, ajusta o se detiene.</small></li>
+  </ol><p class="journey-control"><span aria-hidden="true">✦</span> La persona define el alcance, conserva el control y valida lo que importa.</p>
+</div>
 <h3>De una respuesta a un trabajo de varios pasos</h3><div class="grid g3"><div class="card"><h4>Una conversación</h4><p>Le pides una explicación y recibes una respuesta. Algunas aplicaciones también pueden usar herramientas.</p></div><div class="card"><h4>Un flujo definido</h4><p>Una secuencia establecida aplica un filtro y crea un registro. Sus pasos se deciden de antemano.</p></div><div class="card"><h4>Un agente</h4><p>Puede escoger entre herramientas y adaptar sus siguientes pasos según los resultados, dentro de los límites configurados.</p></div></div>
 <p>La frontera no siempre es rígida: una misma aplicación puede ofrecer conversación, flujos y agentes. Un agente no necesita actuar sin supervisión; el grado de autonomía depende del producto, los permisos y la tarea.</p>
 <h3>Ejemplo de trabajo</h3><p>Le encargas organizar solicitudes ficticias. El agente revisa el material permitido, distingue solicitudes de mensajes no pertinentes, prepara una tabla, señala datos ausentes y te muestra el resultado. Si está autorizado y la herramienta lo permite, puede crear un archivo de prueba; tú compruebas cada registro.</p>
@@ -22,6 +32,15 @@
 <h3>¿Cuándo vale la pena?</h3><p>Úsalo cuando la tarea requiere varios pasos o herramientas y puedes revisar el resultado. Para una regla fija, una fórmula o un flujo convencional puede ser más sencillo. Evita delegar decisiones de alto impacto y detén la actividad si faltan autorización, contexto o una forma de verificar.</p>
 </div></section>
 <section class="mod tint" id="teoria-2"><div class="wrap"><span class="eyebrow">Módulo 2 · Teoría</span><h2>Las piezas del agente</h2><p class="lead">No tienes que instalar todo. Identifica qué necesita tu tarea y qué ofrece tu herramienta.</p>
+<h3>Así puede verse un espacio de trabajo con un agente</h3><p>Este ejemplo es ilustrativo: los nombres y la ubicación de las funciones cambian según el producto y la cuenta.</p>
+<figure class="agent-demo"><div class="demo-top"><span class="demo-dot"></span><span class="demo-dot"></span><span class="demo-dot"></span><strong>Espacio de trabajo · ejemplo</strong><span class="demo-label">Vista ilustrativa</span></div>
+<div class="demo-layout"><div class="demo-side"><div class="demo-brand"><span class="demo-logo">✦</span><b>Agente IA</b></div><span class="demo-side-item is-current"><i>01</i> Conversación</span><span class="demo-side-item"><i>02</i> Conexiones</span><span class="demo-side-item"><i>03</i> Habilidades</span><span class="demo-side-item"><i>04</i> Actividad</span></div>
+<div class="demo-main"><div class="demo-main-head"><span>Una tarea de práctica</span><span class="demo-badge">Caso ficticio</span></div><div class="demo-request"><small>TÚ · OBJETIVO</small><p>Organiza las solicitudes de prueba y prepara una tabla para mi revisión.</p></div>
+<div class="demo-response"><span class="demo-avatar">✦</span><div><b>Agente IA</b><p>Revisaré los mensajes permitidos y separaré las solicitudes. Te mostraré el resultado antes de crear un archivo.</p><div class="demo-activity"><span class="demo-check">✓</span><span><b>Herramienta</b><small>Leer mensajes de prueba</small></span><span class="demo-state">Completado</span></div><div class="demo-activity"><span class="demo-review">!</span><span><b>Revisión humana</b><small>Comprueba la tabla antes de continuar</small></span><span class="demo-state pending">Pendiente</span></div></div></div>
+<div class="demo-input">Escribe un objetivo o una instrucción… <span aria-hidden="true">↑</span></div></div></div>
+<figcaption>Una interfaz puede reunir la tarea, sus conexiones, los pasos realizados y los puntos donde interviene una persona.</figcaption></figure>
+<div class="demo-key"><div><b>01 · Conversación</b><span>Explicas el objetivo y los límites.</span></div><div><b>02 · Conexiones</b><span>Revisas acceso y permisos.</span></div><div><b>03 · Habilidades</b><span>Reutilizas instrucciones disponibles.</span></div><div><b>04 · Actividad</b><span>Compruebas pasos y resultados.</span></div></div>
+<h3>Qué significa cada pieza</h3>
 <div class="tblwrap"><table class="tbl"><tr><th>Pieza</th><th>En palabras sencillas</th><th>Ejemplo</th></tr>
 <tr><td><b>Modelo de IA</b></td><td>Componente que interpreta contexto y genera respuestas o propuestas de acciones; puede equivocarse.</td><td>Identifica el tema de una solicitud.</td></tr>
 <tr><td><b>Herramienta</b></td><td>Una capacidad concreta que el agente puede invocar.</td><td>Leer un archivo o crear una fila, si está permitido.</td></tr>
