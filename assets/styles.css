@@ -467,3 +467,4 @@ section.mod.dark a.proof-card{color:#fff}
 .proof-card:hover{border-color:var(--yellow)}
 
 .course-figure{max-width:640px;margin:28px auto}.course-figure img{display:block;width:100%;height:auto;border-radius:14px}.course-figure figcaption{font-size:.9rem;margin-top:8px;opacity:.8}
+.copy-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px}.copy-prompt{border:1px solid #1f6376;border-radius:8px;background:#fff;color:#0f3b49;font:inherit;font-weight:600;padding:8px 12px;cursor:pointer}.copy-prompt:hover{background:#e7f7f9}.copy-prompt:focus-visible{outline:3px solid #469de6;outline-offset:2px}.copy-status{font-size:.875rem}.dark .copy-status{color:#fff}
