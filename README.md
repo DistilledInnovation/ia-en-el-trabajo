@@ -17,7 +17,7 @@ Guía práctica de **Distilled Innovation** para entender y usar la inteligencia
 
 ## Segunda parte · Agentes de IA
 
-Abre `agentes.html` para aprender cómo trabajan los agentes, conectores, MCP, habilidades y extensiones, y practicar con solicitudes ficticias, un tablero y un reporte. La guía se adapta a las funciones disponibles en cada herramienta.
+Abre `agentes.html` para aprender cómo trabajan los agentes, conectores, MCP, habilidades y extensiones, y practicar con un correo de prueba, una conexión autorizada, un tablero y un reporte. La guía se adapta a las funciones disponibles en cada herramienta.
 
 ## Uso
 
