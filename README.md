@@ -15,6 +15,10 @@ Guía práctica de **Distilled Innovation** para entender y usar la inteligencia
 - **Módulo 5 · Laboratorio acompañado:** retos prácticos, verificación y una oportunidad segura.
 - **Cierre:** reflexión y siguiente práctica.
 
+## Segunda parte · Agentes de IA
+
+Abre `agentes.html` para aprender cómo trabajan los agentes, conectores, MCP, habilidades y extensiones, y practicar con solicitudes ficticias, un tablero y un reporte. La guía se adapta a las funciones disponibles en cada herramienta.
+
 ## Uso
 
 Abre `index.html` en un navegador o sírvelo localmente:
@@ -27,7 +31,8 @@ Luego visita `http://localhost:8000`.
 
 ## Estructura
 
-- `index.html` — sitio/guía web con la marca de Distilled Innovation
+- `index.html` — primera parte de la guía
+- `agentes.html` — segunda parte: agentes y automatizaciones
 - `assets/` — estilos y recursos de marca compartidos
 - `LICENSE` — licencia del contenido
 
